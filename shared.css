@@ -1,0 +1,34 @@
+body {
+    background-color: #d9b8c4;
+
+
+}
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: x-large;
+    text-decoration: 5px underline lightblue;
+
+
+}
+
+h2 {
+    text-decoration: underline lightblue;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcenter {
+    text-align: center;
+}

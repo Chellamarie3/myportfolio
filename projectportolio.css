@@ -1,0 +1,38 @@
+img {
+    height: 200px;
+    border-radius: 20px;
+
+
+}
+
+
+.imagecontainer {
+    height: 210px;
+    width: 210px;
+}
+
+#aboutme {
+    display: flex;
+
+}
+
+#aboutmetext {
+    margin: 0px 100px;
+}
+
+#imagegallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.popimage {
+    box-shadow: 10px 5px 5px #703d57;
+    margin: 10px 5px 5px;
+    transition-duration: 0.2s;
+}
+
+.popimage:hover {
+    box-shadow: 20px 10px 10px #957186;
+    margin: 0px;
+}
