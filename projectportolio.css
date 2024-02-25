@@ -36,3 +36,12 @@ img {
     box-shadow: 20px 10px 10px #957186;
     margin: 0px;
 }
+
+#star-of-david {
+    width: 40px;
+    height: auto;
+}
+
+#me {
+    border: 4px dotted #703d57;
+}

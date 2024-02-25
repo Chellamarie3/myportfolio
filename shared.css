@@ -32,3 +32,12 @@ h2 {
 .textcenter {
     text-align: center;
 }
+
+nav {
+    background-color: #957186;
+
+}
+
+nav a {
+    color: white;
+}

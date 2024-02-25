@@ -3,30 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <title>My Project Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="projectportolio.css">
     <link rel="stylesheet" href="shared.css">
+
 </head>
 
 <body>
-    <section class="flex-center">
-        <h1> Hello, I am Chelsea Johnson.</h1>
-        <h2><em>Welcome to my webpage!</em></h2>
-        <nav>
-            <a href="#aboutme">About me</a>
-            <a href="contact.html">Contact me</a>
-            <a href="#familylife">Family Life</a>
+    <nav class="navbar navbar-expand-lg w-100 mb-4 sticky-top">
+        <a class="navbar-brand" href="#">
+            <img id="star-of-david" src="images/Star_of_David.svg.png" alt="star of david">
+        </a>
+        <div class="col"> <a href="#aboutme">About me</a></div>
+
+        <div class="col"><a href="#familylife">Family Life</a></div>
+        <div class="col"><a href="#Skills">Skills</a></div>
+
+        <div class="col">
             <a href="#education">Education</a>
-        </nav>
-    </section>
-    <section id="aboutme">
-        <div class="imagecontainer"><img id="me" src="images/profile.jpg" alt="selfie of chelsea johnson">
-            <figcaption>(Me)</figcaption>
         </div>
+        <div class="col"> <a href="#resume">Resume</a> </div>
+        <div class="col"><a href="contact.html">Contact me</a></div>
+    </nav>
+    <section class="flex-center">
+
+        <h1 class="mb-4"> Hello, I am Chelsea Johnson.</h1>
+        <img id="me" src="images/profile.jpg" alt="selfie of chelsea johnson">
+        <h2 class="mb-4"><em>Welcome to my
+                webpage!</em></h2>
+
+    </section>
+    <section id="aboutme" class="container ">
+
         <div id="aboutmetext" class="textcenter">
-            <h1>About me!</h1>
-            <p><em>I am a student at Nucamp studying Web development and learning the basics of HTML, CSS, and
+            <h1 class="mb-4">About me!</h1>
+            <p><em>Proud Jewish woman in tech!
+                    I am a student at Nucamp studying Web development and learning the basics of HTML, CSS, and
                     Bootstrap.
                     I consider myself a fun loving creative person. Who also likes to collect old disney movie cells,
                     crochet,
@@ -34,12 +50,10 @@
                     I love being a fur mother to three cats and one cute little Corgi.
                     Looking forward to continuing my education and career in engineering!</em></p>
         </div>
-        <div class="imagecontainer"><img id="star of david" src="images/Star_of_David.svg.png" alt="star of david">
-            <figcaption>(Proud Jewish woman in tech).</figcaption>
-        </div>
+
     </section>
     <section id="familylife">
-        <h1 class="textcenter">Family Life</h1>
+        <h1 class="textcenter mb-4">Family Life</h1>
         <div id="imagegallery">
             <div> <img class="popimage" id="us" src="images/family.jpg" alt="family with corgi">
                 <figcaption>(My husband Seth our boy leo and I).</figcaption>
@@ -53,12 +67,30 @@
         </div>
 
     </section>
-    <section id="education">
-        <h1>Education</h1>
-        <p><em>Sumner high school: Graduate class of 2012.
-            </em></p>
-        <p><em>Nucamp: Currently enrolled, studying Web Dev.</em></p>
+    <section class="flex-center" id="Skills">
+        <h1 class="mb-4">Skills</h1>
+        <p>
+
+        </p>
     </section>
+    <section id="education">
+        <h1 class=" flex-center mb-4">Education</h1>
+        <p class=" flex-center mb-4"><em>Sumner high school: Graduate class of 2012.
+            </em></p>
+        <p class="flex-center"><em>Nucamp: Currently enrolled, studying Web Dev.</em></p>
+    </section>
+    <div class="container w-100 d-flex justify-content-center" id="resume">
+        <a class="btn btn-primary mb-4 text-white" href="resume/Resume.pdf" download>Download my Resume</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
