@@ -1,12 +1,13 @@
 body {
-    background-color: #d9b8c4;
-
+    background-image: linear-gradient(to bottom right, #d9b8c4, #957186, #703d57);
+    min-height: 100vh;
 
 }
 
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 
 }
 
@@ -35,9 +36,15 @@ h2 {
 
 nav {
     background-color: #957186;
-
+    box-shadow: 10px 5px 5px #703d57
 }
 
 nav a {
     color: white;
+}
+
+nav a:hover {
+    color: #a4206d;
+    margin: 0px;
+
 }
