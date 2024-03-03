@@ -45,3 +45,7 @@ img {
 #me {
     border: 4px dotted #703d57;
 }
+
+.navbar-toggler {
+    color: white;
+}
